@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags para configuração básica da página -->
+    <meta charset="utf-8">
+    <title>WashingtonLuiz</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon - ícone exibido na aba do navegador -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Importação das fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Importação dos ícones -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Importação dos estilos das bibliotecas -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Estilos do Bootstrap e personalizados -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner de carregamento -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Barra superior com informações de contato e redes sociais -->
+    <div class="container-fluid bg-light d-none d-lg-block">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                <a href="" class="navbar-brand m-0 p-0">
+                    <h1 class="text-primary m-0">WashingtonLuiz</h1>
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-12 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                    <p class="m-0">Rua Anardino De Paula Cândido, 80 - Santo Antônio, Cachoeira de Minas - MG, 37545-000</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="far fa-envelope-open text-primary me-2"></i>
+                    <p class="m-0">contato.washington.luiz.2007@gmail.com</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Barra de navegação principal -->
+    <div class="container-fluid nav-bar bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+                <h1 class="text-primary m-0">WashingtonLuiz</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto">
+                    <a href="index.html" class="nav-item nav-link active">Início</a>
+                    <a href="#sobre" class="nav-item nav-link">Sobre</a>
+                    <a href="#servicos" class="nav-item nav-link">Serviços</a>
+
+                    </div>
+                    <a href="#" class="nav-item nav-link">Contato</a>
+                </div>
+                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
+                        <i class="fa fa-phone-alt text-primary"></i>
+                    </div>
+                    <div class="ms-3">
+                        <p class="mb-1 text-white"></p>
+                        <h5 class="m-0 text-secondary">+55 35 9 9262-4591</h5>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Carrossel de imagens principal -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Serviços Eficientes de Criação de site</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Serviços Eficientes de Encanamento ComercialCriação de site</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Soluções completas para empresas e estabelecimentos comerciais. Atendimento especializado e resultados garantidos.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Saiba Mais</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Orçamento Grátis</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Plumbing & Repairing Services</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Criação de site</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Criação de sites personalizados.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Saiba mais</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Orçamento Gratuito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Seção sobre a empresa -->
+    <div class="container-xxl py-5" id="sobre">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">Sobre</h6>
+                    <h1 class="mb-4">Sou um Desenvolvedor há 3 anos em busca de aperfeiçoamento</h1>
+                    <p class="mb-4">Mais de 3 anos de experiência no mercado, oferecendo soluções em site com qualidade e profissionalismo.</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Criação de Site Comercial</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Serviços de qualidade a preços acessíveis</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Atendimento Personalizado</p>
+                </div>
+                <div class="col-lg-6 pt-4" style="min-height: 500px;">
+                    <div class="position-relative h-100 wow fadeInUp" data-wow-delay="0.5s">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about-1.jpg" style="object-fit: cover; padding: 0 0 50px 100px;" alt="">
+                        <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50" src="img/about-2.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contador de estatísticas -->
+    <div class="container-fluid fact bg-dark my-5 py-5" id="servicos">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                    <i class="fa fa-check fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">3</h2>
+                    <p class="text-white mb-0">Anos de Experiência</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <i class="fa fa-users fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">69</h2>
+                    <p class="text-white mb-0">Clientes Satisfeitos</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                    <i class="fa fa-wrench fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">80</h2>
+                    <p class="text-white mb-0">Projetos Concluídos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de agendamento -->
+    <div class="container-fluid my-5 px-0">
+        <div class="video wow fadeInUp" data-wow-delay="0.1s">
+
+            <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content rounded-0">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ratio ratio-16x9">
+                                <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                    allow="autoplay"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container position-relative wow fadeInUp" data-wow-delay="0.1s" style="margin-top: -6rem;">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="bg-light text-center p-5">
+                        <h1 class="mb-4">Pedido de Serviço         
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Seu Nome" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Seu Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Selecione um Serviço</option>
+                                        <option value="1">Criação de site</option>
+                                        <option value="2">Cricão de jogos</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="date" id="date1" data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control border-0 datetimepicker-input"
+                                            placeholder="Data de Entrega" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Pedido Especial"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Enviar Agora</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de depoimentos -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">Avaliações de</h6>
+                <h1 class="mb-5">Nosso Clientes</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">O Washington desenvolveu um site incrível para minha empresa! O design ficou moderno, responsivo e muito profissional. A comunicação durante todo o projeto foi excelente e ele entregou antes do prazo previsto.</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Marina Silva</h5>
+                    <p class="m-0">Empresária</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">Contratei o Washington para desenvolver o site do meu consultório e fiquei impressionado com o resultado. O site ficou intuitivo, bonito e já está me trazendo novos pacientes. Recomendo muito!</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Dr. Gabriel Roberto</h5>
+                    <p class="m-0">Dentista</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">O jogo que o Washington desenvolveu para nossa escola superou todas as expectativas! A jogabilidade está incrível e as crianças adoraram. Excelente ferramenta educacional.</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Carla Ribeiro</h5>
+                    <p class="m-0">Diretora Escolar</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">O Washington transformou minha ideia em um site incrível para minha loja virtual. O design ficou clean e a experiência do usuário está perfeita. Superou todas as minhas expectativas!</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Carlos Eduardo</h5>
+                    <p class="m-0">Lojista</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Contato</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Rua Anardino De Paula Cândido, 80 - Santo Antônio, Cachoeira de Minas - MG, 37545-000</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+55 35 9 92624591</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>contato.washington.luiz.2007@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Horário</h4>
+                    <h6 class="text-light">Segunda - Sexta:</h6>
+                    <p class="mb-4">09:00 AM - 08.00 PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Serviços</h4>
+                    <a class="btn btn-link" href="#">Programador de Jogos</a>
+                    <a class="btn btn-link" href="#">Desenvolvedor Front-End Junior</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Informações</h4>
+                    <p>Increva-se para receber as últimas notícias e ofertas.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Seu e-mail">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Increver-se</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">WashingtonLuiz</a>, Todos os direitos reservados.
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botão voltar ao topo -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- Importação dos scripts JavaScript -->
+    <!-- jQuery - biblioteca JavaScript fundamental -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
+    <!-- Bootstrap JS - framework para desenvolvimento responsivo -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Bibliotecas de animação e funcionalidades -->
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+    <!-- Biblioteca para manipulação de datas -->
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- JavaScript personalizado do template -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
